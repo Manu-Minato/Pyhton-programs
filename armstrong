@@ -1,0 +1,17 @@
+n=371
+ct=0
+t=n
+while(t!=0):
+    rem=t%10
+    ct+=1
+    t=t//10
+print(ct)
+te=n
+s=0
+while(te!=0):
+    rem=te%10
+    s+=pow(rem,ct)
+    te=te//10
+if(s==n):
+    print("yes")
+    
